@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_authentication"
+    app:startDestination="@+id/triggerAnAlertFragment">
+
+    <fragment
+        android:id="@+id/triggerAnAlertFragment"
+        android:name="com.example.sosapp.ui.TriggerAnAlertFragment"
+        android:label="fragment_trigger_an_alert"
+        tools:layout="@layout/fragment_trigger_an_alert" >
+        <action
+            android:id="@+id/go_to_cameraViewFragment"
+            app:destination="@id/cameraViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cameraViewFragment"
+        android:name="com.example.sosapp.ui.CameraViewFragment"
+        android:label="fragment_camera_view"
+        tools:layout="@layout/fragment_camera_view" />
+</navigation>
