@@ -2,10 +2,10 @@ package com.example.sosapp.util
 
 import android.os.Parcelable
 import com.google.gson.Gson
-import kotlinx.android.parcel.Parcelize
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import kotlinx.parcelize.Parcelize
 import retrofit2.HttpException
 import java.io.IOException
 import java.net.SocketTimeoutException

@@ -137,6 +137,7 @@ class CameraViewFragment : Fragment() {
                     if (success) {
                         binding.camera.takePicture()
                     } else {
+                        showDialog("Some Error occured")
                     }
                 }
             } else {
