@@ -39,6 +39,7 @@ The **SOS Android App** is a personal safety application designed to help users 
 1. **Image Capture**: The app uses the CameraView library to capture an image, which is encoded into a Base64 string.
 2. **Location Tracking**: When the image is captured, the app uses the FusedLocationProviderClient to obtain the user's current location (latitude and longitude).
 3. **Sending SOS Alert**: A POST request is made to the provided REST API endpoint with the phone numbers, image, and location data in the body.
+4. Descriptive Labels: Clear and descriptive labels have been added to interactive elements for better screen reader support.
 
 ## Testing
 
@@ -47,4 +48,5 @@ The **SOS Android App** is a personal safety application designed to help users 
 
 ## Future Improvements
 - **UI/UX Enhancements**: Improve the user interface to make it more intuitive and visually appealing.
+- Improve the 
   
